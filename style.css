@@ -1,4 +1,5 @@
 body {
+    background-color: beige;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -7,7 +8,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: beige;
 }
 .filtro {
   display: none;
