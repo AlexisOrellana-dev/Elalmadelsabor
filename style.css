@@ -5,6 +5,10 @@ body {
     padding: 20px;
     background-color: green;
 }
+.filtro {
+  display: none;
+}
+
 
 h1 {
     font-size: 5.0rem;
@@ -21,12 +25,3 @@ h1 {
     margin-bottom: 20px;
 }
 
-#lista-productos {
-    list-style: none;
-    padding: 0;
-}
-
-#lista-productos li {
-    font-size: 1.2rem;
-    margin: 10px 0;
-}
