@@ -1,14 +1,18 @@
-    <script>
-        const inputBuscar = document.getElementById("buscar");
-        const lista = document.getElementById("lista-productos");
-        const productos = lista.getElementsByTagName("li");
+document.addEventListener("keyup", e=>{
 
-        inputBuscar.addEventListener("keyup", function() {
-            let filtro = inputBuscar.value.toLowerCase();
-            for (let i = 0; i < productos.length; i++) {
-                let texto = productos[i].textContent.toLowerCase();
-                productos[i].style.display = texto.includes(filtro) ? "" : "none";
-            }
-        });
-    </script>
+  if (e.target.matches("#buscador")){
+
+      if (e.key ==="Escape")e.target.value = ""
+
+      document.querySelectorAll(".articulo").forEach(fruta =>{
+
+          fruta.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+            ?fruta.classList.remove("filtro")
+            :fruta.classList.add("filtro")
+      })
+
+  }
+
+
+})
 
