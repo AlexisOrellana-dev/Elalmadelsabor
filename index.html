@@ -1,24 +1,35 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tienda</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Filtro de elementos</title>
 </head>
 <body>
+  <h1>El alma del sabor</h1>
+<section id="contenedor-main">
+    <div>
+        <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
 
-    <h1>El alma del sabor</h1>
+        <ul id="listaArticulos">
+            <li class="articulo">Avena</li>
+            <li class="articulo">Frutos secos</li>
+            <li class="articulo">Alfajor chocoarroz</li>
+            <li class="articulo">arroz integral</li>
+            <li class="articulo">barrita de cereal</li>
+            <li class="articulo">pan integral</li>
+            <li class="articulo">leche de almendras</li>
+            <li class="articulo">Magnesio en capsulas</li>
+           <li class ="articulo">Magnesio en polvo</li>
+        </ul>
 
-    <!-- Buscador -->
-    <input type="text" id="buscar" placeholder="Buscar producto...">
+    </div>
 
-    <!-- Lista de productos -->
-    <ul id="lista-productos">
-        <li>Remera Negra</li>
-        <li>Pantalón Azul</li>
-        <li>Zapatillas Blancas</li>
-        <li>Campera Roja</li>
-    </ul>
+
+</section>
 <script src="script.js"></script>
 </body>
 </html>
