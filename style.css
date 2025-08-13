@@ -13,8 +13,13 @@ body {
   text-align: left;
 }
 #buscador {
-    text-align: left;
+  width: 100%;       /* para que el input tome todo el ancho del div */
+  max-width: 400px;  /* opcional, para limitarlo a un ancho máximo */
+  text-align: left;  /* alineación del texto dentro del input */
+  box-sizing: border-box; /* para que el padding no aumente el ancho */
+  padding: 8px;      /* un poco de espacio interno */
 }
+
 
 .filtro {
   display: none;
