@@ -9,6 +9,10 @@ body {
     background-size: cover;
     background-position: center;
 }
+#listaArticulos {
+  text-align: left;
+}
+
 .filtro {
   display: none;
 }
