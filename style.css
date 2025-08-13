@@ -12,6 +12,9 @@ body {
 #listaArticulos {
   text-align: left;
 }
+#buscador {
+    text-align: left;
+}
 
 .filtro {
   display: none;
